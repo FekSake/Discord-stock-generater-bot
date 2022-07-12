@@ -35,13 +35,13 @@ First, You have to create a bot. If you already have a bot you can ignore these 
   ❓ How to add stock ❓
 
   1. Make sure you have the items in a text file seperated by a new line
-  2. Either DM the bot (owner only) or use a text channel where it is allowed, ".add " followed by the name of the catagory. For example ".add spotify" and attach the file with the items
+  2. Either DM the bot (owner only) or use a text channel where it is allowed, ".add " followed by the name of the category. For example ".add spotify" and attach the file with the items
   3. It should now be added into stock.json where you can manually edit items.
 
   ❓ How to remove stock ❓
 
-  1. To remove stock first do .stock and find the name of the catagory
-  2. Afterwards either DM the bot (owner only) or use a text channel where it is allowed, ".remove " followed by the name of the catagory.
+  1. To remove stock first do .stock and find the name of the category 
+  2. Afterwards either DM the bot (owner only) or use a text channel where it is allowed, ".remove " followed by the name of the category.
   3. The catagory should now be removed.
 
   ❓ How to get item ❓

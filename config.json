@@ -1,0 +1,11 @@
+{
+    "token":"Token Goes Here",
+
+    "prefix":".",
+    "delay":300,
+    "embed_colour":15277667,
+
+    "allowed_roles":[],
+    "allowed_channels":[],
+    "allowed_guilds":[]
+}

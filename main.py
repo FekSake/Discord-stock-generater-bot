@@ -66,7 +66,7 @@ def display_time(seconds, granularity=2):
 
 # Setting the intents for the bot.
 intents = discord.Intents().all()
-intents.message_content = True # py-cord only
+#intents.message_content = True # py-cord only
 
 bot = commands.Bot(
     command_prefix= prefix,

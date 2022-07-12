@@ -96,8 +96,8 @@ async def on_message(message):
     """
     if message.author.bot:
         return
-    if bot.user.mentioned_in(message):
-        embed = discord.Embed(title=f"{message.author.mention} My prefix is {prefix}",colour=embed_colour)
+    if bot.user.mentioned_in(message) and not(f"@here" in message.content) and not(f"@everyone" in message.content):
+        embed = discord.Embed(title=f"My prefix is {prefix}",colour=embed_colour)
         return await message.reply(embed=embed)
     if not(message.channel.id in allowed_channels):return
     if message.content.startswith("."):
